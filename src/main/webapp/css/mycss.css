@@ -1,0 +1,6 @@
+
+
+.myheader {margin-right:auto;margin-left:auto; background-color: #ffd;width:500px;height: 100%;/*what ever other styles*/}
+.enclose-header {position:fixed;top:0;width:100%;height: 100px;}
+
+.test {position : relative; }
