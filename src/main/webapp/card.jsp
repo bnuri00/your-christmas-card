@@ -82,7 +82,7 @@ function randomName() {
 
     function modalOn() {
         modal.style.display = "flex"
-        modalImg.src = "img/kakao_simple_small.png"
+        modalImg.src = "img/kakao-icon.png"
     }
     function isModalOn() {
         return modal.style.display === "flex"
