@@ -1,0 +1,34 @@
+//modal handle
+    var modal = document.getElementById("modal")
+    var img = document.getElementById("myImg");
+	var modalImg = document.getElementById("kakao_share");
+
+    function modalOn() {
+        modal.style.display = "flex"
+        modalImg.src = "img/kakao-icon.png"
+    }
+    function isModalOn() {
+        return modal.style.display === "flex"
+    }
+    function modalOff() {
+        modal.style.display = "none"
+    }
+    const btnModal = document.getElementById("btn-modal")
+    btnModal.addEventListener("click", e => {
+        modalOn()
+    })
+    const closeBtn = modal.querySelector(".close-area")
+    closeBtn.addEventListener("click", e => {
+        modalOff()
+    })
+    modal.addEventListener("click", e => {
+        const evTarget = e.target
+        if(evTarget.classList.contains("modal-overlay")) {
+            modalOff()
+        }
+    })
+    window.addEventListener("keyup", e => {
+        if(isModalOn() && e.key === "Escape") {
+            modalOff()
+        }
+    })

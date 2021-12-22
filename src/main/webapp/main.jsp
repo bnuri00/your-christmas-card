@@ -23,7 +23,11 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
 <!-- header -->
 
 	<div class="enclose-header">
- 		<div class="myheader"> 카드 받아라! </div>
+ 		<div class="myheader"> 
+ 			<div style="padding-top:25px;padding-bottom:50px;text-align: center;">
+ 				<a onclick="location.href='main.jsp'"style="cursor: pointer;top:0;">🎅</a>
+ 			</div>
+ 		 </div>
  	</div>
  
 <!-- end header -->
@@ -38,18 +42,18 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
 		<h4 style="font-weight: bold;">누군가 당신에게 크리스마스 축하카드를 <br>보냈어요!</h4> <br>
     	<span class="">열어볼까요?</span> <br><br>
     
-      	 현재까지 열어본 카드💌  1225 개
+      	 현재까지 열어본 카드💌  <span id='count'>0</span> 개
     
     </div>
-	
+	<!-- location.href='card.jsp' -->
 	<button type="button" onclick="location.href='card.jsp'" class="btn btn-light" style="font-weight: bold;margin:auto; display:block; width:100%; height:80px;" >좋아요!</button>
 	
 	<!-- 가능하면 수정하기.. -->
-	<br><br><br><br><br>
+	<br><br><br><br><br><br><br>
 </div>
 
 </body>
 
-
+<script type="text/javascript" src="js/test.js"></script>
 
 </html>
