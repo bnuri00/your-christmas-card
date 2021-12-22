@@ -42,7 +42,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
 		<h4 style="font-weight: bold;">누군가 당신에게 크리스마스 축하카드를 <br>보냈어요!</h4> <br>
     	<span class="">열어볼까요?</span> <br><br>
     
-      	 현재까지 열어본 카드💌  <span id='count'>0</span> 개
+      	 현재까지 열어본 카드💌  <span id='count'>12/25</span> 개
     
     </div>
 	<!-- location.href='card.jsp' -->

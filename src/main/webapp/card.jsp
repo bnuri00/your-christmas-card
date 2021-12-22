@@ -31,7 +31,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
 <!-- end header -->
 
 
-<body class="" onload="pickColor()" style="overflow-y:scroll;">
+<body class="" onload="pickColor()">
 
 	<div class="container" style=" width:500px; background-color: #BBDEFB; padding-top: 120px; bottom: 0px;" >
 	
@@ -59,7 +59,7 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
             <div class="content" style="text-align: center;margin-top:45%;">
                 <h2 style="font-weight: bold;">내 카드 공유하기</h2>
                 
-                <a >
+                <a href="javascript:sendLink()">
                 	<img id="kakao_share" style="width:15%; margin-top:10%;">
                 </a>
                 
@@ -77,6 +77,9 @@ href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"> --
 <script type="text/javascript" src="js/make-card.js"></script>
 <script type="text/javascript" src="js/modal-handle.js"></script>
 
+<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+<script type="text/javascript" src="js/share-kakao.js"></script>
+
 <script type="text/javascript">
 
 //random tree color
@@ -85,15 +88,9 @@ function pickColor() {
     document.getElementById("randomClass").style.backgroundColor = colorCode;
 }
 
-//js test
-
-
-
 </script>
 
+
 </body>
-
-
-
 
 </html>
