@@ -1,6 +1,6 @@
 
 
-Kakao.init('39ff8b2aaf273e289a41543bd5224007'); //카카오 인증키(js)
+Kakao.init('39ff8b2aaf273e289a41543bd5224007'); //카카오 js 인증키
 /* 	Kakao.isInitialized(); */
 	
 	/*kakao developers 템플릿*/
